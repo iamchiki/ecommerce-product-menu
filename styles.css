@@ -58,3 +58,38 @@ body {
     background: var(--primary);
     color: var(--light);
 }
+
+/* product container styles */
+
+.product-container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2.5rem;
+}
+
+.product-item {
+    /* width: 50%; */
+    display: flex;
+    gap: 1rem;
+}
+
+.product-item > img {
+    border: 2px solid var(--primary);
+    border-radius: var(--radius);
+    max-width: 30%;
+}
+
+.product-dtl {
+    width: 50%;
+}
+
+.product-dtl > header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-dtl hr {
+    margin: 0.5rem 0 1rem 0;
+}
