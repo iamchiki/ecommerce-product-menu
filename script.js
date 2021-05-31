@@ -9,7 +9,7 @@ function creatProduct(obj) {
             <img src=${obj.img} alt="">
             <div class="product-dtl">
                 <header>
-                    <h4${obj.title}</h4>
+                    <h4>${obj.title}</h4>
                     <h4>${obj.price}</h4>
                 </header>
                 <hr>
