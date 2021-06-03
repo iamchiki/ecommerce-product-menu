@@ -11,7 +11,7 @@ function creatProduct(obj) {
             <div class="product-dtl">
                 <header>
                     <h4>${obj.title}</h4>
-                    <h4>${obj.price}</h4>
+                    <h4>$${obj.price}</h4>
                 </header>
                 <hr>
                 <p>${obj.desc}</p>

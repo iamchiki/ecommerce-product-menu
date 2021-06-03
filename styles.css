@@ -23,7 +23,7 @@ body {
 /* button container styles */
 
 .container {
-    margin-top: 5rem;
+    margin: 5rem 0;
 }
 
 .btn-container {
@@ -72,9 +72,9 @@ body {
 }
 
 .product-item {
-    /* width: 50%; */
     display: flex;
     gap: 1rem;
+    letter-spacing: 0.1rem;
 }
 
 .product-item > img {
