@@ -95,3 +95,31 @@ body {
 .product-dtl hr {
     margin: 0.5rem 0 1rem 0;
 }
+
+/* media queries */
+@media (max-width:1200px) {
+    .product-container {
+        grid-template-columns: 1fr;
+    }
+
+    .product-item {
+        justify-content: center;
+    }
+}
+
+@media (max-width:800px) {
+    .product-item {
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width:768px) {
+    .product-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-dtl {
+        width: 80%;
+    }
+}
