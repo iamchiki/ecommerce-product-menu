@@ -1,4 +1,4 @@
-import { productList } from '/products.js';
+import { productList } from './products.js';
 
 const productContainer = document.querySelector('.product-container');
 const filterBtn = document.querySelector('.filter-btn');
