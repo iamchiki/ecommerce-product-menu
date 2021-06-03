@@ -28,6 +28,7 @@ body {
 
 .btn-container {
     width: 50%;
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,6 +39,7 @@ body {
 /* button styles */
 
 .filter-btn {
+    display: -webkit-flex;
     display: flex;
     gap: 1rem;
 }
@@ -72,6 +74,7 @@ body {
 }
 
 .product-item {
+    display: -webkit-flex;
     display: flex;
     gap: 1rem;
     letter-spacing: 0.1rem;
@@ -88,6 +91,7 @@ body {
 }
 
 .product-dtl > header {
+    display: -webkit-flex;
     display: flex;
     justify-content: space-between;
 }
